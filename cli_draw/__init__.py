@@ -279,6 +279,8 @@ def draw_curses(
             x, y = go_curses(subwin, x, y, this_dir, x_step, y_step, columns, lines)
             this_dir = this_dir.turn(turn)
             subwin.refresh()
+        if subwin.getch() == 113:
+            return
         go_curses(subwin, x, y, this_dir, x_step, y_step, columns, lines)
         subwin.refresh()
         while True:
