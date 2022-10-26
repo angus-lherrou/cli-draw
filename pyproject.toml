@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-draw"
+description = "Draw a path with a sequence of turns"
+readme = "README.md"
+authors = [
+  {email = "piraka@brandeis.edu"},
+  {name = "Angus L'Herrou"}
+]
+version = "1.0.0"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.scripts]
+cli-draw = "cli_draw:main"
+cli-pipes = "cli_draw.pipes:main"
