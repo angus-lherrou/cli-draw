@@ -31,7 +31,7 @@ $ # (pip should warn you about this)
 
 Help for `cli-draw`:
 ```sh
-$ cli-draw --help                                                                                                                                                    (cli-draw) [±main ●●]
+$ cli-draw --help
 usage: cli-draw [-h] [--curses-mode] [--x-step X_STEP]
                 [--y-step Y_STEP] [--tick-length TICK_LENGTH]
                 [--show-cursor] [--initial-direction {R,D,L,U}]
